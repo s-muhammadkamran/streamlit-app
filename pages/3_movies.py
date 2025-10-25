@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.write("Hello World")
-st.write("## This is a H2 Title!")
+st.write("Hello Movies")
+st.write("## This is a Movie List Page!")
+st.write("### Type the name of your favourite movie")
 x = st.text_input("Movie", "Star Wars")
 
 if st.button("Click Me"):
