@@ -12,5 +12,5 @@
 04. Run the following command to build the Docker Image on your local machine.  
     `docker build -t smkamran/streamlit-demo-app .`  
 05. Run the below command to run the app  
-    `docker run --rm -p 8501:8501 -v "$PWD/data:/app/data" smkamran/streamlit-demo-app`  
+    `docker run --rm -p 8501:8501 -v smkamran/streamlit-demo-app`  
 06. Navigate to `http://127.0.0.1:8501` in your browser  
