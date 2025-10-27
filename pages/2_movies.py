@@ -11,7 +11,7 @@ if st.button("Click Me"):
     st.write(f"Your favorite movie is `{x}`")
 
 
-data = pd.read_csv("movies.csv")
+data = pd.read_csv("./data/movies.csv")
 st.write(data)
 
 
